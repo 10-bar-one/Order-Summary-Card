@@ -1,3 +1,20 @@
+Thanks for checking out my first solo project (excluding following tutorials)! I found it really enjoyable and learnt a lot throughout. 
+
+It took me much longer than expected and looked very easy initially, so was humbling to get a feel for how even simple websites are created. 
+
+I didn't think too much about the mobile responsiveness of this project (which is evident when you check the mobile version), so I was wondering if anyone knows how easy it is to change my current code to make it more mobile responsive? 
+
+I'm not sure if you would need to change almost all the current code to do this, or whether you can simply add media queries or something similar to make it more mobile friendly?
+
+Any help/ advice on this, as well as any general comments on how I can improve my code would be amazing! 
+
+Thank you and take it easy :)
+
+
+
+
+
+
 # Frontend Mentor - Order summary card
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
