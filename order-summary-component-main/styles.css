@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+
+
+body{
+
+    font-family: Red Hat Display;
+    background-image: url("file:///Users/allyglenday/Downloads/order-summary-component-main/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;   
+    font-size: 12px;
+}
+
+/* Parent Div */
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Actual entire Order Summary Card (including images & text) */
+
+
+.order-summary-card{
+
+    border-radius: 20px;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    text-align: center;
+    color: grey;
+    margin: 150px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    
+
+
+
+}
+
+.girl-img{
+    
+    width: 100%;
+  
+ 
+ }
+
+
+#my-heading{
+
+    color: black;
+    font-family: Red Hat Display 700;
+    
+
+}
+
+/* Annual Plan Button */ 
+
+#music-icon{
+
+    
+    
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-left: 10px;
+
+    
+    
+}
+
+#annual-plan{
+
+    color: black;
+    background-color: hsl(225, 100%, 98%);
+    position: relative;
+    height: 15%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 2% 10%;
+    border-radius: 10px;
+}
+
+h5{
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+}
+#price{
+    color:grey;
+    position: relative;
+    right: 41px;
+    top: 5px;
+}
+#change a{
+
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    color: indigo;
+
+}
+
+#change a:active{
+
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.payment-button{
+
+    background-color: hsl(245, 75%, 52%);
+    height: 8%;
+    width: 80%;
+    border-radius: 8px;
+    color: white !important;
+    font-family: Red Hat Display;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    border-style: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+    }
+.payment-button a, .payment-button:visited{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.payment-button:active{
+
+    opacity: 0.8;
+}
+
+
+.cancel-order{
+    font-weight: bold;
+    color: grey;
+    text-decoration: none;
+
+}
+
+
+
+/* Footer */ 
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
